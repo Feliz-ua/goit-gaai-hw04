@@ -1,0 +1,22 @@
+[project]
+name = "goit-gaai-hw04"
+version = "0.1.0"
+description = "Homework 4 for GoIT Generative and Agentic AI course"
+authors = [
+    {name = "Yevhem Petrov",email = ""}
+]
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "openai (>=3.42.1,<4.0.0)",
+    "python-dotenv (>=1.2.4,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ipykernel (>=7.4.0,<8.0.0)"
+]
